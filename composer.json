@@ -1,0 +1,28 @@
+{
+    "name": "bamboocoding/maillog",
+    "license": "proprietary",
+    "keywords": ["Laravel", "crgeodata"],
+    "authors": [
+        {
+            "name": "Juan Pablo Villaplana",
+            "email": "jpvillaplana@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BambooCoding\\MailLog\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BambooCoding\\MailLog\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BambooCoding\\MailLog\\MailLogServiceProvider"
+            ]
+        }
+    }
+}
